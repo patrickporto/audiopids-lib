@@ -7,3 +7,16 @@
 ## About
 
 This module provides a library to help developers to create modules that use audio PIDs. It provides functions to handle the audio PIDs and a helper function to get the audio PIDs from a sound.
+
+## API
+
+### `listen(stream, callback, maxPids)`
+
+This function is used to listen to the audio PIDs. It receives three parameters:
+
+```js
+const mic = await navigator.mediaDevices.getUserMedia({ audio: true })
+const cancel = game.modules.get('audiopids-lib').api.listen(mic, (pids) => {
+    console.log(pids)
+}, 10);
+```
