@@ -1,13 +1,13 @@
 {
-    "id": "fvtt-module-template",
+    "id": "audiopids-lib",
     "version": "11.0.0",
     "compatibility": {
         "minimum": "11",
         "verified": "11",
         "maximum": "11"
     },
-    "title": "fvtt-module-template",
-    "description": "A Foundry VTT module template",
+    "title": "Audio PIDs Lib",
+    "description": "A library to help you to work with audio PIDs.",
     "languages": [
         {
             "lang": "en",
@@ -15,8 +15,9 @@
             "path": "lang/en.json"
         }
     ],
-    "url": "https://github.com/patrickporto/fvtt-module-template",
+    "url": "https://github.com/patrickporto/audiopids-lib",
+    "library": true,
     "esmodules": [
-        "fvtt-module-template.js"
+        "audiopids-lib.js"
     ]
 }
